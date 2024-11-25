@@ -3,7 +3,7 @@ const addProductForm = document.querySelector("#add-product-form");
 const cardUpdateForm = document.querySelector("aside");
 const updateProductForm = document.querySelector("#updateForm");
 
-const API_URL = "http://localhost";
+const API_URL = "http://52.15.155.113";
 
 window.addEventListener("load", async () => {
   await fetchProducts();
